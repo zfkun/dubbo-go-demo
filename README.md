@@ -24,6 +24,11 @@ proxy/proxy.go:174	result err: client read timeout
 ## Run
 
 ```shell
+# start gate & game server
+make run
+
+# or
+
 # start gate server
 make run-gate
 

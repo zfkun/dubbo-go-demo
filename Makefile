@@ -16,4 +16,4 @@ run-game:
 
 .PHONY: run
 run:
-	$(ENV_GAME) go run *.go -t game
+	make run-game run-gate -j2
